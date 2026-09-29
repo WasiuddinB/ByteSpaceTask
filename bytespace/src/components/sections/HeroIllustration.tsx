@@ -29,21 +29,21 @@ export function HeroIllustration() {
         src={cardTopic}
         alt="UI/UX Design — 200 courses, 1000+ students"
         sizes="(min-width: 1024px) 280px, 40vw"
-        className="absolute top-1/4 left-0 h-auto w-2/5 rounded-md bg-surface shadow-card"
+        className="absolute top-1/4 left-0 h-auto w-2/7 rounded-md bg-surface shadow-card"
       />
 
       <Image
         src={cardProgress}
         alt="Learning progress: 55 percent complete"
         sizes="(min-width: 1024px) 300px, 42vw"
-        className="absolute top-2/4 right-0 h-auto w-2/5 rounded-md bg-surface shadow-card"
+        className="absolute top-2/6 right-10 h-auto w-2/7 rounded-md bg-surface shadow-card"
       />
 
       <Image
         src={cardStudents}
         alt="Happy students, rated 4.5 from 240 reviews, with over 2000 learners"
         sizes="(min-width: 1024px) 320px, 45vw"
-        className="absolute bottom-8 left-0 h-auto w-2/5 rounded-md bg-surface shadow-card"
+        className="absolute bottom-8 left-0 h-auto w-2/6 rounded-md bg-surface shadow-card"
       />
     </div>
   );

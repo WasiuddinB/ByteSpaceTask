@@ -12,7 +12,7 @@ import { SITE } from "@/lib/constants";
 
 export function Hero() {
   return (
-    <section className="on-primary grid-lines relative overflow-hidden bg-primary pb-section lg:pb-section-lg">
+    <section className="on-primary grid-lines relative overflow-hidden bg-primary">
       <Image
         src={springGreen}
         alt=""
