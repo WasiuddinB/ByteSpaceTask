@@ -328,6 +328,13 @@ export const TESTIMONIALS = [
   },
 ];
 
+export const NOT_FOUND = {
+  code: "404",
+  title: "The page you are looking for doesn't exist",
+  description: "Try to use a correct url or go back to homepage to start again",
+  action: { label: "Back to Home", href: "/" },
+};
+
 export const PARTNER_LOGOS = [
   { id: "wave", name: "Wasi D", mark: logoBar1 },
   { id: "burst", name: "Wasi O", mark: logoBar2 },

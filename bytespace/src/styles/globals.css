@@ -22,6 +22,13 @@
   --color-accent: #d4fb20;
   --color-ring: #0445ff;
 
+  --text-display-xl: 12.5rem;
+  --text-display-xl--line-height: 1;
+  --text-display-xl--font-weight: 600;
+  --text-display-2xl: 16.5rem;
+  --text-display-2xl--line-height: 1;
+  --text-display-2xl--font-weight: 600;
+
   --text-display-lg: 4.5rem;
   --text-display-lg--line-height: 1.2;
   --text-display-lg--font-weight: 600;

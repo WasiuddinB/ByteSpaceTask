@@ -9,7 +9,7 @@ import { AUTH_LINKS, NAV_LINKS, SITE } from "@/lib/constants";
 
 export function Navbar() {
   return (
-    <header className="absolute inset-x-0 top-0 z-20">
+    <header className="on-primary absolute inset-x-0 top-0 z-20">
       <Container className="relative">
         <nav
           aria-label="Main"
