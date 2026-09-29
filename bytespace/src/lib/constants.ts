@@ -217,6 +217,57 @@ export const CREATOR_CTA = {
   action: { label: "Join as Creator", href: "/signup" },
 };
 
+export const NEWSLETTER = {
+  description:
+    "Stay Up to date with our latest features and releases by joining our newsletter.",
+  placeholder: "Enter your email",
+  action: "Search",
+  disclaimer:
+    "By subscribing, you agree to our Privacy Policy and consent to receive updates from our company.",
+};
+
+export const FOOTER_COLUMNS = [
+  {
+    id: "browse",
+    links: [
+      { label: "Featured Courses", href: "/courses" },
+      { label: "Featured Categories", href: "/categories" },
+      { label: "Business", href: "/courses/business" },
+      { label: "IT", href: "/courses/it-software" },
+      { label: "Design", href: "/courses/design" },
+    ],
+  },
+  {
+    id: "topics",
+    links: [
+      { label: "Development", href: "/courses/development" },
+      { label: "Marketing", href: "/courses/marketing" },
+      { label: "Photography", href: "/courses/photography" },
+      { label: "Finance", href: "/courses/finance" },
+      { label: "Sport", href: "/courses/sport" },
+    ],
+  },
+  {
+    id: "company",
+    links: [
+      { label: "Become a Creator", href: "/signup" },
+      { label: "Affiliate Program", href: "/affiliate" },
+      { label: "Contact", href: "/contact" },
+      { label: "Help", href: "/help" },
+      { label: "About", href: "/about" },
+    ],
+  },
+];
+
+export const FOOTER_LEGAL = {
+  copyright: "© 2023 ByteSpace. All rights reserved.",
+  links: [
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Cookies Settings", href: "/cookies" },
+  ],
+};
+
 export const PARTNER_LOGOS = [
   { id: "wave", name: "Wasi D", mark: logoBar1 },
   { id: "burst", name: "Wasi O", mark: logoBar2 },

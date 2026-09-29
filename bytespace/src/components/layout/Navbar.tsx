@@ -15,7 +15,11 @@ export function Navbar() {
           aria-label="Main"
           className="flex h-20 items-center justify-between gap-6 lg:h-24"
         >
-          <Link href="/" aria-label={`${SITE.name} home`}>
+          <Link
+            href="/"
+            aria-label={`${SITE.name} home`}
+            className="text-white"
+          >
             <Logo />
           </Link>
 
