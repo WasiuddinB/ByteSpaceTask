@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" fill="none">
+<defs>
+<linearGradient id="coneWhite" x1="40" y1="0" x2="170" y2="220" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFFFFF"/>
+<stop offset="0.55" stop-color="#F1F2F4"/>
+<stop offset="1" stop-color="#CED0D3"/>
+</linearGradient>
+<linearGradient id="coneBaseWhite" x1="20" y1="196" x2="180" y2="216" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E7E8EA"/>
+<stop offset="1" stop-color="#BEC1C6"/>
+</linearGradient>
+</defs>
+<ellipse cx="100" cy="204" rx="80" ry="24" fill="url(#coneBaseWhite)"/>
+<path d="M100 8c4 0 6 3 8 8l70 186a80 24 0 0 1-156 0L92 16c2-5 4-8 8-8Z" fill="url(#coneWhite)"/>
+</svg>

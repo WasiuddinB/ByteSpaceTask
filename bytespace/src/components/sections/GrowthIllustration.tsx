@@ -8,13 +8,13 @@ import { COURSES } from "@/lib/constants";
 
 export function GrowthIllustration() {
   return (
-    <div className="relative mx-auto w-full max-w-xl">
+    <div className="relative aspect-square w-full max-w-xl">
       <Image
         src={springGreen}
         alt=""
         aria-hidden="true"
-        sizes="130px"
-        className="pointer-events-none absolute top-8 right-0 w-32"
+        sizes="144px"
+        className="pointer-events-none absolute top-1/6 right-4 w-1/4"
       />
 
       <div className="absolute top-0 left-0 w-2/4">
@@ -25,14 +25,14 @@ export function GrowthIllustration() {
         src={human}
         alt="A course creator smiling while holding a laptop"
         sizes="(min-width: 1024px) 460px, 70vw"
-        className="relative ml-auto h-auto w-4/8"
+        className="absolute right-0 bottom-24 h-auto w-4/5"
       />
 
       <Image
         src={progressCard}
         alt="Learning progress: 55 percent complete"
-        sizes="(min-width: 1024px) 290px, 45vw"
-        className="absolute top-2/6 right-0 h-auto w-2/5 rounded-md bg-surface shadow-card"
+        sizes="(min-width: 1024px) 230px, 40vw"
+        className="absolute top-2/5 right-0 h-auto w-2/6 rounded-md bg-surface shadow-card"
       />
     </div>
   );
