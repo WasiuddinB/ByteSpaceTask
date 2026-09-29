@@ -19,8 +19,7 @@ const satoshi = localFont({
 
 export const metadata: Metadata = {
   title: "ByteSpace",
-  description:
-    "ByteSpace is the assessment task that i was given by doin tech",
+  description: "ByteSpace is the assessment task that i was given by doin tech",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

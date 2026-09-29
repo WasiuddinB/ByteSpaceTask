@@ -108,3 +108,16 @@
     outline-offset: 2px;
   }
 }
+
+@layer components {
+  .on-primary :focus-visible {
+    outline-color: var(--color-white);
+  }
+
+  .grid-lines {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.08) 1px, transparent 1px);
+    background-size: 108px 108px;
+  }
+}
