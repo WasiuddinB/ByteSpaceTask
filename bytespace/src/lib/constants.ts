@@ -187,6 +187,29 @@ export const LEARNING_PATHS = [
   { id: "photography", label: "Photography", icon: iconPhotography },
 ];
 
+export const GROWTH_SECTION = {
+  title: "Your Path to Professional Growth Starts Here!",
+  description:
+    "Explore our curated selection of courses tailored to enhance your capabilities and accelerate your career journey. Whether you are looking to sharpen specific skills, gain industry expertise, or embark on a new career path entirely, we have the resources you need.",
+  stats: [
+    { id: "students", value: "12K", label: "Students" },
+    { id: "courses", value: "70+", label: "Courses" },
+    { id: "creators", value: "16", label: "Creators" },
+  ],
+};
+
+export const CREATOR_SECTION = {
+  title: "Create & Manage Courses Easily.",
+  description:
+    "supports individuals or entities in the creation, publication, and administration of educational courses.",
+  benefits: [
+    "Share Your Expertise",
+    "Monetize Your Passion",
+    "Flexibility and Autonomy",
+    "Build a Community",
+  ],
+};
+
 export const PARTNER_LOGOS = [
   { id: "wave", name: "Wasi D", mark: logoBar1 },
   { id: "burst", name: "Wasi O", mark: logoBar2 },
