@@ -14,7 +14,7 @@ export function Footer() {
   return (
     <footer className="bg-surface">
       <Container>
-        <div className="grid gap-12 py-section lg:grid-cols-5 lg:gap-16 lg:py-section-lg">
+        <div className="grid gap-12 py-section border-t border-border lg:grid-cols-5 lg:gap-16 lg:py-section-lg">
           <div className="lg:col-span-2">
             <Link
               href="/"

@@ -13,7 +13,7 @@ export function Courses() {
           description={COURSE_SECTION.description}
         />
 
-        <CourseFilters />
+        <CourseFilters moreHref="/courses" className="mt-10" />
 
         <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3">
           {COURSES.map((course) => (

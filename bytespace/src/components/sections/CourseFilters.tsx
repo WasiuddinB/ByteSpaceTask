@@ -6,14 +6,30 @@ import Link from "next/link";
 import { COURSE_CATEGORIES } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
-const VISIBLE_COUNT = 18;
+interface CourseFiltersProps {
+  limit?: number;
+  moreHref?: string;
+  align?: "center" | "start";
+  className?: string;
+}
 
-export function CourseFilters() {
+export function CourseFilters({
+  limit = COURSE_CATEGORIES.length,
+  moreHref,
+  align = "center",
+  className,
+}: CourseFiltersProps) {
   const [active, setActive] = useState(COURSE_CATEGORIES[0]);
 
   return (
-    <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-      {COURSE_CATEGORIES.slice(0, VISIBLE_COUNT).map((category) => (
+    <div
+      className={cn(
+        "flex flex-wrap items-center gap-3",
+        align === "center" ? "justify-center" : "justify-start",
+        className,
+      )}
+    >
+      {COURSE_CATEGORIES.slice(0, limit).map((category) => (
         <button
           key={category}
           type="button"
@@ -29,9 +45,12 @@ export function CourseFilters() {
           {category}
         </button>
       ))}
-      <Link href="/courses" className="text-label-md text-primary">
-        + More
-      </Link>
+
+      {moreHref && (
+        <Link href={moreHref} className="text-label-md text-primary">
+          + More
+        </Link>
+      )}
     </div>
   );
 }

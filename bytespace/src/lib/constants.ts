@@ -268,6 +268,15 @@ export const FOOTER_LEGAL = {
   ],
 };
 
+export const COURSES_PAGE = {
+  title: "Find Your Next Course",
+  searchPlaceholder: "Search",
+  scopeLabel: "Courses",
+  toolbar: ["Filter", "Level", "Category"],
+  sortLabel: "Most relevant",
+  totalPages: 5,
+};
+
 export const PARTNER_LOGOS = [
   { id: "wave", name: "Wasi D", mark: logoBar1 },
   { id: "burst", name: "Wasi O", mark: logoBar2 },
