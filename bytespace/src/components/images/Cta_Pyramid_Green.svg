@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" fill="none">
+<defs>
+<linearGradient id="pyrLight" x1="100" y1="14" x2="30" y2="220" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E4FF6B"/>
+<stop offset="1" stop-color="#C6EF12"/>
+</linearGradient>
+<linearGradient id="pyrDark" x1="100" y1="14" x2="180" y2="220" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C9F32A"/>
+<stop offset="1" stop-color="#9CC00A"/>
+</linearGradient>
+</defs>
+<path d="M94 16c3-7 9-7 12 0l82 198c3 7-1 12-8 12H20c-7 0-11-5-8-12Z" fill="url(#pyrLight)"/>
+<path d="M100 11c2 0 4 2 6 5l82 198c3 7-1 12-8 12h-80Z" fill="url(#pyrDark)"/>
+</svg>

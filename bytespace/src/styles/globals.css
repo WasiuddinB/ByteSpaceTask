@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --text-*: initial;
+  --font-*: initial;
+  --radius-*: initial;
+
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-primary: #0445ff;
+  --color-primary-hover: #003be2;
+  --color-primary-foreground: #ffffff;
+  --color-foreground: #242528;
+  --color-muted: #666973;
+  --color-background: #f5f5f6;
+  --color-surface: #ffffff;
+  --color-border: #ced0d3;
+  --color-accent: #d4fb20;
+  --color-ring: #0445ff;
+
+  --text-display-xl: 12.5rem;
+  --text-display-xl--line-height: 1;
+  --text-display-xl--font-weight: 600;
+  --text-display-2xl: 16.5rem;
+  --text-display-2xl--line-height: 1;
+  --text-display-2xl--font-weight: 600;
+
+  --text-display-lg: 4.5rem;
+  --text-display-lg--line-height: 1.2;
+  --text-display-lg--font-weight: 600;
+
+  --text-heading-lg: 2.75rem;
+  --text-heading-lg--line-height: 1.2;
+  --text-heading-lg--font-weight: 600;
+
+  --text-heading-md: 2.125rem;
+  --text-heading-md--line-height: 1.2;
+  --text-heading-md--font-weight: 600;
+
+  --text-heading-sm: 1.5rem;
+  --text-heading-sm--line-height: 1.2;
+  --text-heading-sm--font-weight: 600;
+
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.6;
+  --text-body-lg--font-weight: 400;
+
+  --text-body-md: 1rem;
+  --text-body-md--line-height: 1.6;
+  --text-body-md--font-weight: 400;
+
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.6;
+  --text-body-sm--font-weight: 400;
+
+  --text-body-xs: 0.75rem;
+  --text-body-xs--line-height: 1.6;
+  --text-body-xs--font-weight: 400;
+
+  --text-label-lg: 1.125rem;
+  --text-label-lg--line-height: 1.2;
+  --text-label-lg--font-weight: 500;
+
+  --text-label-md: 1rem;
+  --text-label-md--line-height: 1.2;
+  --text-label-md--font-weight: 500;
+
+  --text-label-sm: 0.875rem;
+  --text-label-sm--line-height: 1.2;
+  --text-label-sm--font-weight: 500;
+
+  --text-label-xs: 0.75rem;
+  --text-label-xs--line-height: 1.2;
+  --text-label-xs--font-weight: 500;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+
+  --shadow-card: 0 4px 24px rgb(0 0 0 / 0.06);
+
+  --container-page: 80rem;
+
+  --spacing-section: 4rem;
+  --spacing-section-lg: 7.5rem;
+  --spacing-section-compact: 3rem;
+  --spacing-section-compact-lg: 6rem;
+}
+
+@theme inline {
+  --font-heading: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-satoshi), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .on-primary :focus-visible {
+    outline-color: var(--color-white);
+  }
+
+  .grid-lines {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.08) 1px, transparent 1px);
+    background-size: 108px 108px;
+  }
+}
