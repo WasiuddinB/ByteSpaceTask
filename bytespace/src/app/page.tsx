@@ -7,6 +7,7 @@ import { Hero } from "@/components/sections/Hero";
 import { LearningPaths } from "@/components/sections/LearningPaths";
 import { LogoBar } from "@/components/sections/LogoBar";
 import { ProfessionalGrowth } from "@/components/sections/ProfessionalGrowth";
+import { Testimonials } from "@/components/sections/Testimonials";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <ProfessionalGrowth />
         <CreateCourses />
         <CreatorCta />
+        <Testimonials />
       </main>
       <Footer />
     </>

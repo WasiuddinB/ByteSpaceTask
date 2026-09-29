@@ -22,6 +22,9 @@ import logoBar2 from "@/components/images/LogoBar2.png";
 import logoBar3 from "@/components/images/LogoBar3.png";
 import logoBar4 from "@/components/images/LogoBar4.png";
 import logoBar5 from "@/components/images/LogoBar5.png";
+import testimonialAvatar1 from "@/components/images/TestimonialAvatar1.svg";
+import testimonialAvatar2 from "@/components/images/TestimonialAvatar2.svg";
+import testimonialAvatar3 from "@/components/images/TestimonialAvatar3.svg";
 
 export const SITE = {
   name: "ByteSpace",
@@ -291,6 +294,39 @@ export const CREATOR_PROFILE = {
   ],
   action: "Follow",
 };
+
+export const TESTIMONIALS_SECTION = {
+  title: "Discover What Our Community Is Saying",
+  description:
+    "At ByteSpace, our vibrant community of learners and creators is at the heart of what we do. Hear directly from those who have experienced the transformative journey of learning and creating on our platform. Explore testimonials that reflect the diverse perspectives of enthusiastic learners and accomplished creators.",
+};
+
+export const TESTIMONIALS = [
+  {
+    id: "sarah",
+    name: "Sarah M.",
+    role: "Enthusiastic Learner",
+    avatar: testimonialAvatar1,
+    quote:
+      "ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning.",
+  },
+  {
+    id: "wasi",
+    name: "Wasi Uddin Bhuyian",
+    role: "Lifelong Learner",
+    avatar: testimonialAvatar2,
+    quote:
+      "I've tried several online learning platforms, and ByteSpace stands out for its vibrant community and the variety of courses available. The easy navigation and engaging content make it a go-to platform for continuous skill development.",
+  },
+  {
+    id: "alex",
+    name: "Alex B.",
+    role: "Inspired Creator",
+    avatar: testimonialAvatar3,
+    quote:
+      "As a creator, ByteSpace has been a game-changer for me. The Course Editor is user-friendly, and the support from the community is incredible. It's fulfilling to see my courses making a positive impact on learners globally.",
+  },
+];
 
 export const PARTNER_LOGOS = [
   { id: "wave", name: "Wasi D", mark: logoBar1 },

@@ -61,7 +61,7 @@ export function CourseCard({ course }: CourseCardProps) {
 
         <ul className="flex items-center -space-x-2">
           {COURSE_AVATARS.map((avatar) => (
-            <li key={avatar.src}>
+            <li key={avatar.src} className="shrink-0">
               <Image
                 src={avatar}
                 alt=""
