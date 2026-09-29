@@ -277,6 +277,21 @@ export const COURSES_PAGE = {
   totalPages: 5,
 };
 
+export const CREATOR_PROFILE = {
+  name: "Wasi Uddin Bhuyian",
+  badge: "Creator",
+  role: "Passionate Web Developer",
+  bio: [
+    "Welcome to the creative world of WUB. Here, you'll discover the passion, expertise, and inspiration that drive my creative journey. Let's explore and learn together!",
+    "Dive into my creative portfolio, showcasing a glimpse of my artistic endeavors. From digital designs to multimedia projects, each piece tells a unique story. Explore the world of creativity with me.",
+  ],
+  stats: [
+    { id: "products", value: "3", label: "Products" },
+    { id: "followers", value: "12", label: "Followers" },
+  ],
+  action: "Follow",
+};
+
 export const PARTNER_LOGOS = [
   { id: "wave", name: "Wasi D", mark: logoBar1 },
   { id: "burst", name: "Wasi O", mark: logoBar2 },
