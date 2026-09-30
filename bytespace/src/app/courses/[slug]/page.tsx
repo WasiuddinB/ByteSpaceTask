@@ -5,6 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import { CourseAbout } from "@/components/sections/CourseAbout";
 import { CourseDetailHero } from "@/components/sections/CourseDetailHero";
+import { CourseLessons } from "@/components/sections/CourseLessons";
 import { CourseSidebar } from "@/components/sections/CourseSidebar";
 import { CourseTabs } from "@/components/sections/CourseTabs";
 import { Container } from "@/components/ui/Container";
@@ -38,7 +39,11 @@ export default async function CourseDetailPage({
 
   const panels = [
     { id: "about", label: COURSE_DETAIL.tabs[0], content: <CourseAbout /> },
-    { id: "lessons", label: COURSE_DETAIL.tabs[1], content: null },
+    {
+      id: "lessons",
+      label: COURSE_DETAIL.tabs[1],
+      content: <CourseLessons />,
+    },
     { id: "reviews", label: COURSE_DETAIL.tabs[2], content: null },
   ];
 
