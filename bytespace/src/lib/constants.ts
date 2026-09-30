@@ -335,6 +335,42 @@ export const NOT_FOUND = {
   action: { label: "Back to Home", href: "/" },
 };
 
+export const LOGIN_PAGE = {
+  intro: {
+    title: "Sign in with ease",
+    description:
+      "Experience a seamless and efficient sign-in process that grants you instant access to a world of knowledge.",
+  },
+  eyebrow: "Sign In",
+  title: "Welcome Back",
+  action: "Sign In",
+  pending: "Signing in…",
+  success: "Signed in successfully.",
+  footer: {
+    text: "New user?",
+    linkLabel: "Create an account",
+    href: "/signup",
+  },
+};
+
+export const SIGNUP_PAGE = {
+  intro: {
+    title: "Sign up and come in",
+    description:
+      "The registration process is straightforward, uncomplicated, and efficient, allowing users to sign up quickly, easily, and at no cost",
+  },
+  eyebrow: "Create an Account",
+  title: "Welcome to ByteSpace",
+  action: "Continue",
+  pending: "Creating account…",
+  success: "Account created successfully.",
+  footer: {
+    text: "Already have an account?",
+    linkLabel: "Login",
+    href: "/login",
+  },
+};
+
 export const PARTNER_LOGOS = [
   { id: "wave", name: "Wasi D", mark: logoBar1 },
   { id: "burst", name: "Wasi O", mark: logoBar2 },
