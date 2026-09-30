@@ -25,6 +25,14 @@ import logoBar5 from "@/components/images/LogoBar5.png";
 import testimonialAvatar1 from "@/components/images/TestimonialAvatar1.svg";
 import testimonialAvatar2 from "@/components/images/TestimonialAvatar2.svg";
 import testimonialAvatar3 from "@/components/images/TestimonialAvatar3.svg";
+import iconCertificate from "@/components/images/IconCertificate.svg";
+import iconConsultation from "@/components/images/IconConsultation.svg";
+import iconResources from "@/components/images/IconResources.svg";
+import iconVideos from "@/components/images/IconVideos.svg";
+import sneakPeek1 from "@/components/images/SneakPeek1.svg";
+import sneakPeek2 from "@/components/images/SneakPeek2.svg";
+import sneakPeek3 from "@/components/images/SneakPeek3.svg";
+import sneakPeek4 from "@/components/images/SneakPeek4.svg";
 
 export const SITE = {
   name: "ByteSpace",
@@ -263,7 +271,7 @@ export const FOOTER_COLUMNS = [
 ];
 
 export const FOOTER_LEGAL = {
-  copyright: "© 2023 ByteSpace. All rights reserved.",
+  copyright: "© 2026 ByteSpace. All rights reserved. WUB",
   links: [
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Terms of Service", href: "/terms" },
@@ -369,6 +377,75 @@ export const SIGNUP_PAGE = {
     linkLabel: "Login",
     href: "/login",
   },
+};
+
+export const COURSE_DETAIL = {
+  titleSuffix: ": A Comprehensive Guide",
+  subtitle: "Unlock the Power of Digital Creation with Expert Guidance",
+  level: "Intermediate",
+  rating: "4.8 (172 reviews)",
+  students: "199 Students",
+  shareLabel: "Share",
+  tabs: ["About", "Lessons", "Reviews"],
+  curriculum: {
+    title: "112 Lessons (24 hours)",
+    lessons: [
+      {
+        id: "01",
+        title: "Introduction to Digital Assets",
+        duration: "12 mins",
+      },
+      { id: "02", title: "Design Principles for Impacts", duration: "21 mins" },
+      {
+        id: "03",
+        title: "Advanced Techniques in Digital Creation",
+        duration: "16 mins",
+      },
+    ],
+    more: "99 more videos",
+  },
+  pitch: "Ready to Dive In? Enroll Now and Start Building Your Digital Future!",
+  enrolLabel: "Enroll Now",
+  includesTitle: "This course include",
+  includes: [
+    { id: "resources", label: "Learning Resources", icon: iconResources },
+    { id: "videos", label: "Quality Lesson Videos", icon: iconVideos },
+    {
+      id: "certificate",
+      label: "Certificate of Completion",
+      icon: iconCertificate,
+    },
+    {
+      id: "consultation",
+      label: "Private Consultation",
+      icon: iconConsultation,
+    },
+  ],
+  creator: {
+    name: "PurePearl Studio",
+    role: "Professional Creator",
+    action: "See Full Profile",
+    href: "/creators",
+  },
+  descriptionTitle: "Description",
+  description: [
+    'Embark on an enlightening exploration into the world of digital creation with our comprehensive course, "Build Digital Assets: A Comprehensive Guide." This transformative learning experience invites you to delve deep into the intricacies of crafting impactful digital content. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide is meticulously curated to empower you with the skills essential for navigating the dynamic landscape of digital asset creation.',
+    "In the initial modules, you'll establish a solid foundation by immersing yourself in the foundational concepts that form the backbone of digital asset creation. Understand the fundamental elements that constitute compelling digital content and gain proficiency in leveraging these elements to communicate effectively in the digital realm.",
+    "As you progress through the course, you'll ascend to higher levels of expertise, delving into the nuances of design principles that drive impactful creations. Uncover the secrets behind effective visual communication, exploring color theory, typography, and layout strategies that elevate your digital assets to new heights. Engage in hands-on exercises that reinforce your understanding, allowing you to apply these principles in practical scenarios.",
+  ],
+  sneakPeekTitle: "Sneak Peak",
+  sneakPeek: [sneakPeek1, sneakPeek2, sneakPeek3, sneakPeek4],
+  keyPointsTitle: "Key Points",
+  keyPoints: [
+    "Foundational Concepts",
+    "Design Principles Mastery",
+    "Advanced Techniques in Digital Creation",
+    "Project Showcase and Critique",
+    "Optimizing for Various Platforms",
+    "Digital Asset Management Best Practices",
+    "Monetization Strategies",
+    "Capstone Project: Building Your Portfolio",
+  ],
 };
 
 export const PARTNER_LOGOS = [

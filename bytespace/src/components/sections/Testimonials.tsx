@@ -16,10 +16,10 @@ export function Testimonials() {
           </p>
         </div>
 
-        <ul className="mt-12 grid items-start gap-8 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3">
+        <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3">
           {TESTIMONIALS.map((testimonial) => (
             <li key={testimonial.id}>
-              <figure className="rounded-lg bg-surface p-8 shadow-card">
+              <figure className="flex h-full flex-col rounded-lg bg-surface p-8 shadow-card">
                 <Image
                   src={testimonial.avatar}
                   alt=""

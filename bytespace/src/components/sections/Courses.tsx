@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { CourseFilters } from "@/components/sections/CourseFilters";
 import { CourseCard } from "@/components/ui/CourseCard";
 import { Container } from "@/components/ui/Container";
@@ -18,7 +20,9 @@ export function Courses() {
         <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3">
           {COURSES.map((course) => (
             <li key={course.id}>
-              <CourseCard course={course} />
+              <Link href={`/courses/${course.id}`} className="block h-full">
+                <CourseCard course={course} />
+              </Link>
             </li>
           ))}
         </ul>
