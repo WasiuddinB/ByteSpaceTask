@@ -4,7 +4,7 @@ import { GROWTH_SECTION } from "@/lib/constants";
 
 export function ProfessionalGrowth() {
   return (
-    <section className="bg-linear-to-br from-accent/15 via-surface to-primary/10 py-section lg:py-section-lg">
+    <section className="bg-linear-to-br from-accent/15 via-surface to-primary/10 pt-section lg:pt-section-lg">
       <Container>
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div>

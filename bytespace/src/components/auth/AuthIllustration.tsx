@@ -25,14 +25,14 @@ export function AuthIllustration() {
         src={torusGreen}
         alt=""
         sizes="110px"
-        className="pointer-events-none absolute top-8 left-10 w-1/5"
+        className="pointer-events-none absolute top-8 left-18 w-1/5"
       />
 
       <Image
         src={pyramidGreen}
         alt=""
         sizes="140px"
-        className="pointer-events-none absolute bottom-0 left-0 w-1/4"
+        className="pointer-events-none absolute bottom-35 left-0 w-1/4"
       />
 
       <Image
@@ -42,7 +42,7 @@ export function AuthIllustration() {
         className="pointer-events-none absolute top-3/5 right-0 w-1/5"
       />
 
-      <div className="absolute right-0 bottom-4 w-1/2 rounded-md bg-accent p-3">
+      <div className="absolute right-0 bottom-20 w-1/2 rounded-md bg-accent p-3">
         <Image
           src={studentsCard}
           alt=""
