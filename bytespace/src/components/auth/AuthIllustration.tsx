@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import pyramidGreen from "@/components/images/Cta_Pyramid_Green.svg";
 import torusGreen from "@/components/images/Cta_Torus_Green.svg";
-import studentsCard from "@/components/images/Hero_Card_Bar_3.png";
+import studentsCard from "@/components/images/Auth_Card_Bar.svg";
 import springWhite from "@/components/images/Hero_Spring_White.png";
 import { CourseCard } from "@/components/ui/CourseCard";
 import { COURSES } from "@/lib/constants";
@@ -42,7 +42,7 @@ export function AuthIllustration() {
         className="pointer-events-none absolute top-3/5 right-0 w-1/5"
       />
 
-      <div className="absolute right-0 bottom-20 w-1/2 rounded-md bg-accent p-3">
+      <div className="absolute right-0 bottom-20 w-1/2 rounded-md bg-accent">
         <Image
           src={studentsCard}
           alt=""
