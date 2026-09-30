@@ -263,7 +263,7 @@ export const FOOTER_COLUMNS = [
 ];
 
 export const FOOTER_LEGAL = {
-  copyright: "© 2023 ByteSpace. All rights reserved.",
+  copyright: "© 2026 ByteSpace. All rights reserved. WUB",
   links: [
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Terms of Service", href: "/terms" },
