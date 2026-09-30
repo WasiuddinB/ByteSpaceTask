@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
+
+import { ScrollToTop } from "@/components/ui/ScrollToTop";
 import "@/styles/globals.css";
 
 const poppins = Poppins({
@@ -30,6 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col bg-background font-body text-foreground">
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );
