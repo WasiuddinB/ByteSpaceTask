@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
@@ -29,7 +30,9 @@ export default function CreatorsPage() {
             <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3">
               {COURSES.map((course) => (
                 <li key={course.id}>
-                  <CourseCard course={course} />
+                  <Link href={`/courses/${course.id}`} className="block h-full">
+                    <CourseCard course={course} />
+                  </Link>
                 </li>
               ))}
             </ul>
