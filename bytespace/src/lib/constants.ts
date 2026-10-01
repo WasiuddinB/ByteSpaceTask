@@ -25,6 +25,8 @@ import logoBar5 from "@/components/images/LogoBar5.png";
 import testimonialAvatar1 from "@/components/images/TestimonialAvatar1.svg";
 import testimonialAvatar2 from "@/components/images/TestimonialAvatar2.svg";
 import testimonialAvatar3 from "@/components/images/TestimonialAvatar3.svg";
+import reviewAvatar1 from "@/components/images/ReviewAvatar1.svg";
+import reviewAvatar2 from "@/components/images/ReviewAvatar2.svg";
 import iconCertificate from "@/components/images/IconCertificate.svg";
 import iconConsultation from "@/components/images/IconConsultation.svg";
 import iconResources from "@/components/images/IconResources.svg";
@@ -498,6 +500,56 @@ export const COURSE_LESSONS = {
   progressDescription:
     "Witness your growth as you complete lessons, with an intuitive progress tracking feature guiding you through your learning journey.",
   progress: { label: "Learning Progress", value: 67 },
+};
+
+export const COURSE_REVIEWS = {
+  title: "What Learners Are Saying",
+  description:
+    "Discover what our learners have to say about their experience with 'Build Digital Assets: A Comprehensive Guide.' Read reviews and ratings from individuals who have embarked on the transformative journey of mastering digital asset creation.",
+  summaryLabel: "Ratings",
+  average: "4.7",
+  breakdown: [
+    { stars: 5, count: 720 },
+    { stars: 4, count: 120 },
+    { stars: 3, count: 21 },
+    { stars: 2, count: 12 },
+    { stars: 1, count: 16 },
+  ],
+  listTitle: "Individual Reviews:",
+  allLabel: "All rating",
+  emptyMessage: "No reviews with this rating yet.",
+  reviews: [
+    {
+      id: "purepearl",
+      name: "PurePearl Studio",
+      role: "UI/UX Designer",
+      avatar: reviewAvatar1,
+      date: "a year ago",
+      rating: 5,
+      quote:
+        '"The course provided me with a comprehensive understanding of digital asset creation. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!"',
+    },
+    {
+      id: "wasiuddin",
+      name: "Wasi Uddin Bhuyian",
+      role: "Software Engineer",
+      avatar: testimonialAvatar2,
+      date: "an hour ago",
+      rating: 4,
+      quote:
+        '"The organisation provided me with a comprehensive understanding of building a frontend based project e2e and deliver it with quality with highly frontend focused designs. Highly recommended!"',
+    },
+    {
+      id: "albert",
+      name: "Albert Flores",
+      role: "UI/UX Designer",
+      avatar: reviewAvatar2,
+      date: "a year ago",
+      rating: 5,
+      quote:
+        "This course transformed my approach to digital design. The combination of theory, hands-on exercises, and real-world applications made it a truly enriching experience. Excited to implement what I've learned!",
+    },
+  ],
 };
 
 export const PARTNER_LOGOS = [
